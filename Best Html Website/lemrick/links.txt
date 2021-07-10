@@ -1,0 +1,3 @@
+font awsome
+
+<script src="https://kit.fontawesome.com/1d381cab2c.js" crossorigin="anonymous"></script>

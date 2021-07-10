@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+#odiv{
+height:55px;
+width:100%;
+background:orange;
+padding:1px;
+}
+
+#no{
+margin-left:40px;
+margin-top:25px;
+}
+
+#email{
+margin-left:200px;
+margin-top:-37px;
+}
+
+#time{
+margin-left:410px;
+margin-top:-35px;
+}
+
+#gdiv{
+height:100px;
+width:100%;
+background:grey;
+border:1px solid black;
+}
+
+#logo{
+height:60px;
+width:190px;
+margin-left:60px;
+margin-top:30px;
+}
+
+.home{
+font-family:times new roman;
+color:white;
+}
+.list{
+margin-left:40%;
+margin-top:-50px;
+}
+li{
+display:inline-block;
+}
+
+.idiv{
+height:500px;
+width:100%;
+border:1px solid black;
+background-image:url('slider.jpg');
+background-size:100% 100%
+}
+
+.opacity{
+height:100%;
+width:100%;
+background:black;
+opacity:0.7;
+padding:1px;
+}
+#l1{
+font-family:times new roman;
+font-size:20px;
+color:cyan;
+text-align:center;
+margin-top:70px;
+}
+
+#l2{
+font-family:times new roman;
+font-size:65px;
+color:cyan;
+text-align:center;
+margin-top:-10px;
+}
+
+#l3{
+font-family:times new roman;
+font-size:65px;
+color:orange;
+text-align:center;
+margin-top:-45px;
+}
+
+.btn{
+height:40px;
+width:150px;
+border-radius:30px;
+background:orange;
+margin-left:450px;
+color:white;
+}
+
+#pg2h{
+color:orange;
+font-size:30px;
+margin-left:60px;
+margin-top:60px;
+font-family:times new roman;
+
+}
+
+#pg2hs{
+color:blue;
+font-size:27px;
+margin-left:60px;
+margin-top:-8px;
+font-family:times new roman;
+}
+
+#pg2hss{
+color:black;
+font-size:17px;
+margin-left:60px;
+margin-top:-8px;
+font-family:times new roman;
+}
+
+#pg2d{
+background-image:url('about.png');
+background-size:100% 100%;
+height:300px;
+width:550px;
+margin-left:700px;
+margin-top:-200px;
+}
+
+#pg2i{
+height:400px;
+width:250px;
+margin-left:150px;
+margin-top:-60px;
+}
+#pg2b{
+font-family:times new roman;
+background:orange;
+border-radius:30px;
+height:40px;
+width:100px;
+margin-top:60px;
+margin-left:30px;
+}
+
+#pg3d{
+height:600px;
+width:100%;
+border:1px solid black;
+margin-top:50px;
+}
+#pg3p{
+font-family:times new roman;
+text-align:center;
+font-size:30px;
+margin-top:70px;
+}
+
+#pg3p2{
+font-family:times new roman;
+text-align:center;
+font-size:18px;
+margin-top:70px;
+}
+
+.pg3i{
+height:160px;
+width:160px;
+margin-left:120px;
+}
+
+h3{
+margin-left:90px;
+}
+
+#pg4d{
+height:650px;
+width:100%;
+border:1px solid black;
+}
+
+
+#pg4i1{
+height:500px;
+width:470px;
+margin-left:10px;
+margin-top:-0px;
+}
+
+#pg4i2{
+display:block;
+height:220px;
+width:400px;
+margin-left:500px;
+margin-top:-504px;
+}
+
+#pg4i3{
+display:block;
+height:220px;
+width:380px;
+margin-left:925px;
+margin-top:-220px;
+}
+
+#pg4b1{
+height:40px;
+width:150px;
+background:orange;
+color:white;
+border-radius:20px;
+margin-left:500px;
+margin-top:20px;
+}
+
+#pg4b2{
+height:40px;
+width:150px;
+background:orange;
+color:white;
+border-radius:20px;
+margin-left:950px;
+margin-top:20px;
+}
+
+#pg5d{
+height:830px;
+width:100%;
+border:1px solid black;
+background-image:url('portf.jpg');
+background-size:100% 100%
+
+}
+#opacity2{
+height:100%;
+width:100%;
+background:gold;
+opacity:0.7;
+padding:1px;
+}
+
+#pg5h{
+text-align:center;
+color:white;
+font-family:times new roman;
+font-size:30px;
+}
+#pg5p{
+text-align:center;
+color:white;
+font-family:times new roman;
+font-size:19px;
+}
+
+#pg5b{
+height:40px;
+width:100px;
+background:blue;
+color:white;
+border-radius:20px;
+margin-left:350px;
+margin-top:60px;
+}
+
+#pg5i1{
+height:430px;
+width:500px;
+margin-left:20px;
+margin-top:30px;
+}
+#pg5i2{
+height:200px;
+width:355px;
+margin-left:0px;
+margin-top:0px;
+display:block;
+}
+
+#pg5i3{
+height:200px;
+width:355px;
+margin-left:370px;
+margin-top:-200px;
+display:block;
+}
+#pg5i4{
+height:200px;
+width:355px;
+margin-left:0px;
+margin-top:30px;
+display:block;
+}
+#pg5i5{
+height:200px;
+width:355px;
+margin-left:370px;
+margin-top:-200px;
+display:block;
+}
+
+
+
+
+#pg6d{
+height:700px;
+width:100%;
+border:1px solid black;
+text-align:center;
+font-size:40px;
+font-family:times new roman;
+margin-top:50px;
+}
+
+.pg6gd{
+height:270px;
+width:330px;
+border-radius:20px;
+background:lightgrey;
+margin-left:50px;
+}
+
+
+#d2{
+margin-top:-320px;
+margin-left:500px;
+}
+#d3{
+margin-top:-330px;
+margin-left:950px;
+}
+
+
+#c1{
+display:block;
+margin-top:50px;
+margin-left:170px;
+}
+#c2{
+display:block;
+margin-top:-80px;
+margin-left:600px;
+}
+#c3{
+display:block;
+margin-top:-80px;
+margin-left:1067px;
+}
+
+#p11{
+font-size:20px;
+text-align:left;
+margin-left:150px;
+}
+#p12{
+font-size:20px;
+text-align:left;
+margin-left:600px;
+margin-top:-45px;
+}
+#p13{
+font-size:20px;
+text-align:left;
+margin-left:1070px;
+margin-top:-45px;
+}
+
+#pg7d{
+height:200px;
+width:100%;
+background:gold;
+padding:1px;
+}
+
+
+#lasti{
+width:1338px;
+}
+#pg8d{
+height:100px;
+width:100%;
+background:blue;
+color:white;
+text-align:center;
+margin-top:-5px;
+padding:1px;
+}
+	
+
+.tb{
+height:30px;
+border-radius:15px
+}
+
+	</style> 		</head> 		 <body>
+
+<div id="odiv"> 
+	<p id="no">1234-5678-9101</p>
+	<p id="email">support@contract.com</p>
+	<p id="time">Mon-Sat9:00am 6:00pm</p>
+</div>
+
+<div id="gdiv">
+	<image id="logo" src="logo.png" >
+	<ul id="home" class="list">
+	<li style="margin-left:80px;color:white"><b>HOME</b> </li>
+	<li style="margin-left:40px;color:white"> <b>ABOUT US </b></li>
+	<li style="margin-left:40px;color:white"><b>PORTFOLIO</b></li>
+	<li style="margin-left:40px;color:white"><b> SERVICES </b></li>
+</ul>
+</div>
+
+<div class="idiv">
+	<div class="opacity">
+		<p id="l1">We Are Certified Enginerier</p>
+		<h1 id="l2">CONSTRUCTION SERVICES</h1>
+		<h1 id="l3">CREATIVE AND PROFESSIONAL</h1>
+
+			<p style="color:cyan;text-align:center">sgs ysgys gsg g gsy gge wydhu ewhw uah ydg wydgy vhdvu egdy edfh gs ysgys gsg g gsy gge wydhu ewhw uah ydg<br>
+			wydgy vhdvu egdy edfh gs ysgys gsg g gwydgy vhdvu egdy edfh gsg g gsy gge wydhu ewhw uah ydg wydgy vhdvu egdy edfghsag daf dgasfg sgfg dfgah<br>	
+			qoism huhx hxhug ygxah gtft bhxgsy x mzoojqiji hssywg <br>		
+			</p>
+
+		<button class="btn">Know More</button>
+		<button class="btn" style="margin-left:50px;">View Project</button>
+	</div>
+</div>
+<div>
+	<p id="pg2h">	WELCOME TO OUR COMPANY	</p>
+	<p id="pg2hs">	Aqualius hudh pusa,dsud ywggsa	</p>
+	<p id="pg2hss">	Aqualius hudh pusa,dsud ywggsa Aqualius hudh pusa,dsud ywggsaAqualius<br>
+			hudh pusa,dsud ywg gsa oiw iui haAqualius hudh pusa,dsud ywggsaAqual<br>
+			hudh pusa,dsud ywggsa ysgyud <br>
+			wiewu u Aqualius hudh pusa,dsud ywggsaAqualius hudh pusa Aqualius hudh pusa<br>
+			dsud ywggsa Aqualius hudh pusa,dsud ywggsaAqualius hudh pusa,dsud ywggsa<br>
+			wiewu u Aqualius hudh pusa,dsud ywggsaAqualius hudh pusa<br>	
+	
+		<button id="pg2b">Know More</button>	</p>
+	
+<div id="pg2d">
+	<image id="pg2i" src="man.png">
+
+	</div>
+</div>
+
+<div id="pg3d">
+		<p id="pg3p"> WHY CHOOSE US?</p>
+			<p id="pg3p2">
+			wiewu u Aqualius hudh pusa,dsud ywggsaAqualius hudh pusa Aqualius hudh pusa<br>
+			dsud ywggsa Aqualius hudh pusa,dsud ywggsaAqualius hudh pusa,dsud ywggsa<br>
+			wiewu u Aqualius hudh pusa,dsud ywggsaAqualius hudh pusa<br>
+			</p>
+<ul>
+<li><image class="pg3i" src="aaa.png"> <h3>WE DELIVER QUALITY	</h3> <p style="text-align:center;font-size:16pxs;margin-left:80px"> njsa gdgas dfs dsdas tya dfjhr <br> g gayg xg sgdya dh yugd<br> gtd aftt dfatf<br></p></li>
+<li><image class="pg3i" src="aaa.png"><h3 style="margin-left:105px">ALWAYS ON TIME	</h3> <p style="text-align:center;font-size:16pxs;margin-left:80px"> njsa gdgas dfs dsdas tya dfjhr <br> g gayg xg sgdya dh yugd<br> gtd aftt dfatf<br></p></li>
+<li><image class="pg3i" src="aaa.png"><h3 style="margin-left:105px">WE ARE PASSION	</h3> <p style="text-align:center;font-size:16pxs;margin-left:80px"> njsa gdgas dfs dsdas tya dfjhr <br> g gayg xg sgdya dh yugd<br> gtd aftt dfatf<br></p></li>
+<li><image class="pg3i" src="aaa.png" ><h3 style="margin-left:130px"> GOOD DAY	</h3> <p style="text-align:center;font-size:16pxs;margin-left:80px"> njsa gdgas dfs dsdas tya dfjhr <br> g gayg xg sgdya dh yugd<br> gtd aftt dfatf<br></p></li>
+</ul>
+</div>
+
+
+<div id="pg4d">
+<p id="pg3p"> RECENT POSTS</p>
+
+	<image id="pg4i1" src="service.jpg" >
+	<image id="pg4i2" src="service2.jpg">
+	<image  id="pg4i3" src="service3.jpg">
+
+
+
+<h3 style="margin-left:505px;color:blue">2 best sites to buile site	</h3> 
+		<p style="font-size:16pxs;margin-left:934px;color:blue">Lonjsa gdgas dfs dsdas tya dfjhr <br>Lonjsa gdgas dfs dsdas tya dfjhr <br>Lonjsa gdgas dfs dsdas tya dfjhr <br> </p>
+			<button id="pg4b1">LEARN MORE</button>
+
+<h3 style="margin-left:935px;color:blue;margin-top:-166px;"> 2 best sites for builds site	</h3> 
+		<p style="font-size:16pxs;margin-left:500px;color:blue;"> Lonjsa gdgas dfs dsdas tya dfjhr <br>Lonjsa gdgas dfs dsdas tya dfjhr <br>Lonjsa gdgas dfs dsdas tya dfjhr <br></p>
+			<button id="pg4b2">LEARN MORE</button>
+
+</div>
+
+<div id="pg5d">
+	<div id="opacity2" > 
+		<p id="pg5h"><br><br> MADE WITH LOVE</p>
+		<p id="pg5p"><br> Logereo hhu oio aija jmjzh hshau ygdafga aiui aij ii sji dsi djiaj hsoks dahjdh <br>erduhhsd ygcys gy gs csyg eo hhu oio aija jmjzh aijii sji dsi djiaj hsoks dahjdh <br></p>
+
+	<button id="pg5b">Show All</button>
+<ul">
+	<li style="font-size:16pxs;margin-left:30px;color:white;"> BUILDING</li>
+	<li style="font-size:16pxs;margin-left:50px;color:white;">INTERIOR DESIGN</li>
+	<li style="font-size:16pxs;margin-left:50px;color:white;"> ISOLATION</li>
+	<li style="font-size:16pxs;margin-left:40px;color:white;"> PLUMBING</li>
+</ul>			
+
+	<image id="pg5i1" src="highlit.jpg">
+		<div style="height:440px;width:740px;margin-left:550px;margin-top:-430px;">
+	<image id="pg5i2" src="im2.jpg">
+	<image id="pg5i3" src="im3.jpg">
+	<image id="pg5i4" src="im4.jpg">
+	<image id="pg5i5" src="im5.jpg">
+		</div>
+
+	</div>
+</div>
+
+<div id="pg6d"> CUSTOMER REVIEWS
+
+		<p style="font-size:20px"> wawawd ssdf dauhj whu hautdy a fsf dtfag qiji jsyu gzygz qy yugy dwdixn ubxy gxyg ay uxu ahxua usy au sa hsa<br>
+		    jsudhass asusgd aygda gg havghahs d gassdgass h dgassfdyasgs dhhas gd afdga ihs<br><br><br>
+
+	<div class="pg6gd" id="d1" style="font-size:20px">
+		<h1 style="font-size:72px;text-align:left;margin-left:15px">"</h1>
+				<p style="margin-top:-80px">
+		<br>uyda yagd wtft agd fsat dy<br>
+		psyda yagd wtf tsasfdty adas<br>
+		uydad fsat dasfdty adas<br>
+		psyda yagd ayftf tsasfdty adas<br>
+		yda yagd wtyyy dg tadf tsasadas<br>
+		da yat agd addsaddf tsasfdty adas<br>
+		agd w agd fsasfdty adas<br></p>
+	</div>
+	<div class="pg6gd" id="d2" style="font-size:20px">
+		<h1 style="font-size:72px;text-align:left;margin-left:15px">"</h1>
+				<p style="margin-top:-80px">
+		<br>wyda yagd wtft agd fsat dy<br>
+		psyda yagd wtf tsasfdty adas<br>
+		uydad fsat dasfdty adas<br>
+		psyda yagd ayftf tsasfdty adas<br>
+		yda yagd wtyyy dg tadf tsasadas<br>
+		da yat agd addsaddf tsasfdty adas<br>
+		agd w agd fsasfdty adas<br></p>
+	</div>
+	<div class="pg6gd" id="d3" style="font-size:20px">
+
+		<h1 style="font-size:72px;text-align:left;margin-left:15px">"</h1>
+				<p style="margin-top:-80px">
+		<br>uyda yagd wtft agd fsat dy<br>
+		psyda yagd wtf tsasfdty adas<br>
+		uydad fsat dasfdty adas<br>
+		psyda yagd ayftf ty adas<br>
+		yda yagd wtg tadf tsasadas<br>
+		da yat agwqe dwd asaddf tsasfdty adas<br>
+		agd w agd fsasfdty adas<br></p>
+	</div>
+
+<image id="c1" src="c1.png">
+<image id="c2"  src="c2.png">
+<image id="c3" src="c1.png">
+
+<p id="p11"> Kabir Khemkha</p>
+<p id="p12"> Chero Lala</p>
+<p id="p13"> Steve Wala</p>
+
+
+</div>
+<div id="pg7d">
+
+	<h1 style="margin-left:30px;margin-top:40px;font-family:times new roman">DO YOU HAVE ANY QUESTIONS?</h1>
+	<h2 style="margin-left:30px;font-family:times new roman">FEEL FREE TO CONTACT US</h2>
+
+<form action="/action_page.php">
+  
+  <input class="tb" style="display:block;width:250px;margin-left:700px;margin-top:-100px;" type="text" name="firstname" value="Name">
+  <br>
+  <input class="tb" style="display:block;width:250px;margin-left:970px;margin-top:-55px" type="text" name="email" value="Email">
+  <br>
+  <input class="tb" style="display:block;width:430px;margin-left:700px;margin-top:0px" type="text" name="email" value="Message">
+  <br>
+  <input class="tb" style="background:blue;color:white;width:90px;display:block;margin-left:1140px;margin-top:-50px" type="submit" value="Submit">
+</form> 
+
+</div>
+
+<div id="lasti">
+	<image src="adad.png" style="width:100%">
+</div>
+
+<div id="pg8d">
+	<p style="margin-top:40px;">All rights reserved.</p>
+</div>
+
+
+
+</body>
+</html>

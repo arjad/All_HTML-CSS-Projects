@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+#d1{
+height:80px;
+width:100%;
+}
+
+#name{
+font-family:times new roman;
+margin-left:50px;
+margin-top:30px;
+color:darkcyan;
+}
+
+#ho{
+font-size:20px;
+font-family:times new roman;
+margin-left:650px;
+margin-top:-40px;
+color:darkcyan;
+}
+
+#ho2{
+font-size:20px;
+font-family:times new roman;
+margin-left:760px;
+margin-top:-43px;
+color:darkcyan;
+}
+
+
+#ho3{
+font-size:20px;
+font-family:times new roman;
+margin-left:870px;
+margin-top:-43px;
+color:darkcyan;
+}
+
+#ho4{
+font-size:20px;
+font-family:times new roman;
+margin-left:980px;
+margin-top:-45px;
+color:darkcyan;
+}
+
+#ho5{
+font-size:20px;
+font-family:times new roman;
+margin-left:1096px;
+margin-top:-43px;
+color:darkcyan;
+}
+
+#d2{
+height:600px;
+width:100%;
+border:1px solid black;
+background-image:url('hero.jpg');
+}
+
+#d3{
+height:100%;
+width:100%;
+background:grey;
+opacity:0.8;
+padding:1px;
+}
+
+#d4name{
+height:110px;
+width:500px;
+border:2px solid white;
+color:white;
+font-family:times new roman;
+margin-left:450px;
+margin-top:200px;
+text-align:center;
+font-size:34px;
+}
+
+#pname{
+margin-top:35px;
+font-weight:bold;
+}
+
+
+#pp{
+color:white;
+text-align:center;
+font-size:25px;
+font-family:times new roman;
+margin-top:42px;
+}
+
+#lrn{
+height:70px;
+width:180px;
+background:green;
+float:left;
+margin-left:450px;
+margin-top:35px;
+font-size:17px;
+border:1px solid green;
+font-weight:bold;
+opacity:1;
+}
+
+
+#dwn{
+height:70px;
+width:200px;
+background:darkcyan;
+margin-left:30px;
+margin-top:35px;
+font-size:17px;
+border:1px solid darkcyan;
+font-weight:bold;
+}
+
+#db{
+height:700px;
+width:100%;
+}
+
+#sd1{
+margin-top:70px;
+height:500px;
+width:300px;
+float:left;
+margin-left:120px;
+}
+#sd2{
+margin-top:70px;
+height:500px;
+width:300px;
+float:left;
+margin-left:100px;
+}
+#sd3{
+margin-top:70px;
+height:500px;
+width:300px;
+float:left;
+margin-left:100px;
+
+}
+h2{
+text-align:center;
+margin-top:70px;
+}
+
+#our{
+text-align:center;
+}
+
+#r{
+height:25px;
+width:35px;
+margin-left:130px;
+margin-top:50px;
+margin-bottom:50px;
+}
+
+h3{
+text-align:center;
+margin-bottom:30px;
+}
+#pi{
+text-align:center;
+font-family:times new roman;
+}
+#pi2{
+font-family:times new roman;
+margin-left:10px;
+}
+#sb{
+height:50px;
+width:130px;
+background:lightseagreen;
+color:white;
+margin-top:50px;
+font-size:12px;
+}
+
+#sb2{
+height:60px;
+width:140px;
+background:lightseagreen;
+color:white;
+margin-top:10px;
+font-size:12px;
+}
+
+.idiv{
+height:350px;
+width:100%;
+background-image:url('hero.jpg');
+border:1px solid orange;
+background-size:100% 100%;
+}
+
+#bopacity{
+padding:1px;
+height:100%;
+width:100%;
+opacity:0.8;
+background:lightseagreen;
+}
+
+#bopacity2{
+padding:1px;
+height:100%;
+width:100%;
+opacity:0.6;
+background:black;
+}
+
+#bopacity3{
+padding:1px;
+height:100%;
+width:100%;
+opacity:0.6;
+background:white;
+color:black;
+}
+
+#bluep{
+color:white;
+text-align:center;
+margin-top:170px;
+font-size:27px;
+}
+
+#whitep{
+text-align:center;
+margin-top:170px;
+font-size:27px;
+}
+
+#drecent{
+height:900px;
+width:100%;
+}
+
+#avgd1{
+height:600px;
+width:430px;
+float:left;
+margin-left:10px;
+}
+
+#avgd2{
+height:600px;
+width:430px;
+float:left;
+margin-left:10px;
+
+}
+
+#avgd3{
+height:600px;
+width:430px;
+float:left;
+margin-left:10px;
+}
+
+#r2{
+height:200px;
+width:100%;
+}
+
+#contact{
+height:800px;
+width:100%;
+}
+
+#lastdiv{
+height:630px;
+width:100%;
+background:darkblue;
+margin-top:60px;
+padding:1px;
+}
+
+#lastsd{
+height:350px;
+width:300px;
+
+color:white;
+margin-left:150px;
+margin-top:100px;
+}
+#lastsd2{
+height:350px;
+width:300px;
+
+color:white;
+margin-left:570px;
+margin-top:-353px;
+}
+#lastsd3{
+height:350px;
+width:300px;
+
+color:white;
+margin-left:950px;
+margin-top:-354px;
+}
+
+</style>
+</head>
+<body>
+<div id="d1">
+	<h1 id="name"> 			 Shahbaz</h1>
+	<p id="ho"> <b>Home</b><p>
+	<p id="ho2"> <b>Gallery</b><p>
+	<p id="ho3"> <b>Contact</b><p>
+	<p id="ho4"> <b>Service</b><p>
+	<p id="ho5"> <b>Others</b><p>
+</div>
+
+
+<div id="d2">
+	<div id="d3">
+
+		<div id="d4name"> <p id="pname"> SHAHBAZ JAVED	</p></div>
+			<p id="pp"><br>Lorium hsy ag yas ud ty d hhaiuhs uid ygyah sgd yas gd<br>
+			Lipisum yuw yas udiys yuyg guhs uid ygyah sgd yas gd<br>
+			</p>
+
+
+		<button id="lrn">	<p class="pb">LEARN MORE</p></button>
+		<button id="dwn">  <p class="pb">DOWNLOAD NOW </p></button>
+		
+
+	</div>
+</div>
+
+<div id="db">
+		<h2> OUR SERVICE</h2>
+		<p id="our"> Latium ayugyb ftag yis nnayusg ayu aushahuasiuiu asadsda</p>
+
+	<div id="sd1">
+		<image id="r" src="rocket.png">
+		<h3>WEB DESING </h3>
+		<p id="pi"> <br>sed tempydsb ftejhduy hygpys  pksas<br>
+		    aus dux hh jsduy agy tsaxgx jxhs<br>
+
+		<button id="sb">LEARN MORE</button>
+		</p>
+	</div>
+	<div id="sd2">
+		<image id="r" src="rocket.png">
+		<h3>WEBPRESS DEVELOPMENT </h3>
+		<p id="pi"> <br>sed tempydsb ftejhduy hygyys  pksas<br>
+		    aus dux hh jsduy agy tsaxgx jxhs<br>
+
+		<button id="sb">LEARN MORE</button>
+		</p>
+	</div>	<div id="sd3">
+		<image id="r" src="rocket.png">
+		<h3>AWESOME SERVICE TITTLE </h3>
+		<p id="pi"> <br>sed tempydsb ftejhduy hygays  pksas<br>
+		    aus dux hh jsduy agy tsaxgx jxhs<br>
+
+		<button id="sb">LEARN MORE</button>
+		</p>
+	</div>
+</div>
+
+<div class="idiv">
+		<div id="bopacity">
+		<p id="bluep"><b> LORIUM CANDA USGHASGT GSD GYG SYGAU HASD AYUDHS ADA</b></p>
+		</div>
+</div>
+
+<div id="drecent">
+	<h2> <br><br><br> RECENT POSTS </h2>
+	<p style="text-align:center">  <br>Ladufinm ullam conse uysaw huwye ya gmauda yduash</p>
+
+
+	<div id="avgd1">
+		<image id="r2" src="blog1.jpg">
+		<h3>YELP IS WFUL FOR EVERYONE INVOLVED </h3>
+		<p id="pi2"> <br>sdfsf sdas asd siu ed tempydsb ftejhduy hygpys  pksas<br>
+			jshad<br>
+		    	aus dux hasdh jsduy agy tsdd fsax dfdsf ssgx jjhj xhs<br>
+			shad<br>
+		    	aus dux adad sdasd fssda dhh jsduy agy tsaxgx jjhj xhs<br>
+			quiu<br>
+		<button id="sb2">LEARN MORE</button>
+		</p>
+	</div>
+	<div id="avgd2">
+		<image id="r2" src="blog2.jpg">
+		<h3>2 BEST SITES FOR EVERYONE INVOLVED </h3>
+		<p id="pi2"> <br>sdfsf sdas asd siu ed tempydsb ftejhduy hygpys  pksas<br>
+			jshad<br>
+		    	aus dux hasdh jsduy agy tsdd fsax dfdsf ssgx jjhj xhs<br>
+			shad<br>
+		    	aus dux adad sdasd fssda dhh jsduy agy tsaxgx jjhj xhs<br>
+			quiu<br>
+		<button id="sb2">LEARN MORE</button>
+		</p>
+	</div>
+	<div id="avgd3">
+		<image id="r2" src="blog3.jpg">
+		<h3>2 BEST SITES TO FOR EVERYONE INVOLVED </h3>
+		<p id="pi2"> <br>sdfsf sdas asd siu ed tempydsb ftejhduy hygpys  pksas<br>
+			jshad<br>
+		    	aus dux hasdh jsduy agy tsdd fsax dfdsf ssgx jjhj xhs<br>
+			shad<br>
+		    	aus dux adad sdasd fssda dhh jsduy agy tsaxgx jjhj xhs<br>
+			quiu<br>
+		<button id="sb2">LEARN MORE</button>
+		</p>
+	</div>	
+</div>
+
+
+<div class="idiv">
+		<div id="bopacity2">
+		<p id="bluep"><b> LORIUM CANDA USGHASGT GSD GYG SYGAU HASD AYUDHS ADA</b></p>
+		</div>
+</div>
+
+<div id="contact">
+	<h2> <br><br><br> CONTACT US </h2>
+	<p style="text-align:center">  <br>Ladufinm ullam conse uysaw huwye ya gmauda yduash</p>
+
+<form action="/action_page.php">
+  
+  <input style="display:block;height:30px;width:350px;margin-left:270px;margin-top:70px;" type="text" value="Name">
+  <br>
+  <input style="display:block;height:30px;width:350px;margin-left:680px;margin-top:-55px" type="text" value="Email">
+  <br>
+  <input style="display:block;height:250px;width:800px;margin-left:270px;margin-top:0px" type="text"  value="Message">
+  <br>
+  <input style="background:lightseagreen;color:white;height:50px;width:130px;display:block;margin-left:270px;margin-top:0px" type="submit" value="Submit">
+</form> 
+
+
+</div>
+
+
+<div class="idiv">
+
+		<div id="bopacity3">
+		<p id="whitep"><b> LORIUM CANDA USGHASGT GSD GYG SYGAU HASD AYUDHS ADA</b></p>
+		</div>
+</div>
+
+<div id="lastdiv">
+	<div id="lastsd">
+	<h4>ABOUT US<br></h4>
+		<p>
+		Sed egstas, ante et vulputate<br>
+		edsdas egstas, ante et vulputate<br>
+		hah yged egstas, ante et vulputate<br>
+		hah yged egstas, ante et vulputate<br>
+		ante et vulputate<br><br>
+		hah yged egstas, ante et vulputate<br>
+		ante et vulputate<br>
+	</div>
+	<div id="lastsd2">
+		<h4>USA OFFICE<br></h4>
+		<p>
+		Twitter,Inc.<br>
+		1332, nte et vulputate<br>
+		San Francisco ulputate<br>
+		P:(123)4567-45<br><br>
+		<b>Full name</b><br>
+		first.last@example.com<br>
+		</p>
+	</div>
+	<div id="lastsd3">
+		<h4>UK OFFICE<br></h4>
+		<p>
+		Sed egstas, ante et vulputate<br>
+		edsdas egstas, ante et vulputate<br>
+		hah yged egstas, ante et vulputate<br>
+		hah yged egstas, ante et vulputate<br>
+		ante et vulputate<br><br>
+		hah yged egstas, ante et vulputate<br>
+		ante et vulputate<br>
+	</div>
+<hr style="width:80%;">
+<br><br>
+<p style="text-align:center;color:white;">
+C<b> Shahzbz Javed.</b>Designtion: <b>Software Developer.</b>FOR : <b>Developed for Students.</b>
+</p>
+</div>
+
+
+
+</body>
+</html>
