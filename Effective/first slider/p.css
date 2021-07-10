@@ -1,0 +1,77 @@
+
+.cover1
+{
+height: 400px;
+width: 600px;
+border: 1px solid gray;
+position: relative;
+left: 300px;
+top:150px;
+overflow: hidden;
+}
+.contact
+{
+position: absolute;
+height: 100%;
+width: 100%;
+background-image: url('wall3.jpg');
+background-size: 100% 100%;
+left: 100%;
+}
+.label
+{
+position: absolute;
+background-color: green;
+top:90%;
+z-index: 5;
+padding: 10px;
+color: white;
+}
+.slider
+{
+display: none;
+}
+.label2
+{
+position: absolute;
+left: 10%;
+}
+.slider:checked+label+.contact
+{
+    transform: rotateX(1);
+left: 0;
+transition-duration: 1s;
+}
+.contact2
+{
+height: 100%;
+width: 100%;
+position: absolute;
+background-image:url('wall1.jpg') ;
+background-size: 100% 100%;
+left: 100%;
+}
+.slider:checked+label+.contact2
+{
+left: 0;
+transition-duration: 1s;
+}
+.label3
+{
+position: absolute;
+left: 20%;
+}
+.contact3
+{
+height: 100%;
+position: absolute;
+width: 100%;
+background-image: url('wall2.webp');
+background-size: 100% 100%;
+left: 100%;
+}
+.slider:checked+label+.contact3
+{
+left: 0;
+transition-duration: 1s;
+}

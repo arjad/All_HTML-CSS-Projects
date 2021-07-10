@@ -1,0 +1,526 @@
+.nav{
+    position: relative;
+    height: 100px;
+    width: 100%;
+    background: purple;
+    animation-name:a;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes a{
+    0%{
+        background: purple;
+    }
+    25%{
+        background: magenta;
+    }
+    50%{
+        background: red;
+    }
+    75%{
+        background: green;
+    }
+    100%{
+        background: mediumspringgreen;
+    }
+}
+.logo{
+    position: absolute;
+    height: 70px;
+    width: 150px;
+    top:10px;
+    left:50px;
+}
+.nav .b{
+    height: 45px;
+    width:80px;
+    background: orangered;
+    border-radius: 30px;
+    color:white;
+    border: none;
+    font-weight: bold;
+}
+.nav .b:hover{
+    box-shadow: 0px 0px 5px 5px orangered;
+    transform: scale(1.2);
+}
+.nav .b1{
+    position: absolute;
+    right:730px;
+    top:30px;
+}
+.nav .b2{
+    position: absolute;
+    right:640px;
+    top:30px;
+}
+.nav .b3{
+    position: absolute;
+    right:550px;
+    top:30px;
+}
+.nav .b4{
+    position: absolute;
+    right:450px;
+    top:30px;
+}
+.nav .b5{
+    position: absolute;
+    right:350px;
+    top:30px;
+}
+.nav .b6{
+    position: absolute;
+    right:250px;
+    top:30px;
+}
+.nav .b7{
+    position: absolute;
+    right:150px;
+    top:30px;
+}
+.d2{
+    height:550px;
+    width:100%;
+    background-image: url("download.jpg");
+    background-size: 100% 100%;
+    padding: 1px;
+    position: relative;
+}
+.d2 >h1{
+    position: absolute;
+    top:100px;
+    left:130px;
+    color: white;
+    font-size: 50px;
+}
+.d2 span{
+    color: blue;
+}
+.d2 p{
+    position: absolute;
+    top:180px;
+    left:130px;
+    color: white;
+}
+.d2 .b8{
+    height: 45px;
+    width:140px;
+    background: orangered;
+    border-radius: 30px;
+    border: none;
+    font-weight: bold;
+    font-weight: bold;
+    position: absolute;
+    top:280px;
+    left:130px;
+}
+.d3{
+    height: 330px;
+    width: 100%;
+}
+.sdiv{
+    height:100%;
+    width:33%;
+    background: green;
+    float:left;
+    position: relative;
+}
+.s1{
+    margin-left: 7px;
+    background: green;;
+}
+
+.s2{
+    background: black;
+}
+.s3{
+    background: green;;
+}
+.sdiv img{
+    background: mediumturquoise;
+    border-radius: 50%;
+    height: 90px;
+    width:100px;
+    position: absolute;
+    top:30px;
+    left: 160px;
+}
+.sdiv h2{
+    position: absolute;
+    top:110px;
+    left: 135px;
+    color:white;
+}
+.sdiv p{
+    position: absolute;
+    top:150px;
+    left: 130px;
+    color:white;
+    text-align: center;
+}
+.sdiv h3{
+    color:blue;
+    text-decoration: underline;
+    position: absolute;
+    top:250px;
+    left: 150px;
+}
+.d4{
+    height:650px;
+    width:100%;
+    padding: 1px;
+    position: relative;
+}
+.d4 h1{
+    color:blue;
+    text-align: center;
+    margin-top:100px;
+}
+.sd{
+    height:200px;
+    width: 500px;
+    border:1px solid lightgrey;
+    position: absolute;
+    left:10%;
+    transition-duration: 1s;
+}
+.sd:hover{
+    transform: scale(1.2);
+    box-shadow: 0px 0px 5px 5px grey;
+    cursor: pointer;
+    border-radius: 20px;
+}
+.sd2,.sd4{
+    left:50%;
+}
+
+.sd3{
+    bottom:8%;
+}
+.sd4{
+    bottom:8%;
+}
+.sd img{
+    position: absolute;
+    height:80px;
+    width: 80px;
+    left:20px;
+    top:20px;
+    background-color: orangered;
+    background-size: 100% 100%;
+    border-radius: 50%;
+}
+.sd h2{
+    position: absolute;
+    left:130px;
+    top:20px;
+    color:gray;
+}
+.sd p{
+    position: absolute;
+    left:110px;
+    top:60px;
+}
+.d7{
+    height:600px;
+    width:100%;
+}
+.d7part{
+    height:100%;
+    width:50%;
+    margin-left: 50%;
+    margin-top: -600px;
+}
+.d7 .laptop{
+    height: 100%;
+    width:50%;
+}
+.smalld{
+    border:1px solid grey;
+    height: 300px;
+    width:220px;
+    float:right;
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+.smalld:hover{
+    background: lightblue;
+}
+.smalld img{
+    height: 60px;
+    width: 60px;
+}
+.smalld h2{
+    color:orange;
+}
+.smalld p{
+    color: gray;
+}
+
+.d8{
+    height:350px;
+    width:100%;
+    margin-top: 50px;
+    background-image: url("world2.jpg");
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+.tinyde{
+    height:200px;
+    width:200px;
+    color:white;
+    text-align: center;
+    float:left;
+    margin-top: 90px;;
+    display: inline-block;
+    z-index: 1;
+}
+.tinyd{
+    height:200px;
+    width:250px;
+    color:white;
+    text-align: center;
+    float:left;
+    margin-top: 90px;;
+    display: inline-block;
+    z-index: 1;
+    transition-duration: 1s;
+}
+.tinyd:hover{
+    background: yellow;
+    border-radius:50%;
+    opacity:0.5;
+}
+.tinyd h1{
+    font-size: 40px;
+}
+.tinyd p{
+    font-size: 23px;
+}
+.d9{
+    height: 300px;
+    width: 100%;
+}
+.simg{
+    height:100%;
+    width:50%;
+}
+.simg2{
+    height:100%;
+    width:50%;
+    float:left;
+}
+.d9 .sdp2{
+    float:left;
+    height:100%;
+    width:50%;
+    padding-left: 50px;
+    box-sizing: border-box;
+}
+.d9 .sdp{
+    float:right;
+    height:100%;
+    width:50%;
+    padding-left: 50px;
+    box-sizing: border-box;
+}
+.d9 span{
+    color:black;
+    font-size: 20px;
+}
+.d9 h1{
+    color:gold;
+    font-size: 35px;
+}
+.d9 p{
+    color:gold;
+    font-size: 20px;
+}
+.d10{
+    height:500px;
+    width:100%;
+    color:blue;
+    text-align: center;
+}
+.d10 button{
+    height:40px;
+    width:130px;
+    background: gold;
+    border: none;
+    border-radius: 30px;
+    margin-top: 100px;;
+}
+.img{
+    height:50%;
+    width:33%;
+    float:left;
+}
+.d11{
+    height:550px;
+    width:100%;
+
+    margin-top: 500px;
+
+}
+.d3s{
+    height:450px;
+    width:350px;
+    border:1px solid grey;
+    position: relative;
+    float: left; 
+    transition-duration:1s ;   
+}
+.d3s:hover{
+    transform: scaley(1.2);
+}
+.d3s1{
+    margin-left:150px;
+}
+.d3s .i{
+    height:100px;
+    width: 100px;
+    position: absolute;
+    top:0px;
+    right:0px;
+    opacity: 0.4;
+}
+.d11 h1{
+    text-align: center;
+}
+.d3s span{
+    color: blue;
+    font-size: 40px;
+}
+.d3s h3{
+    text-align: center;
+}
+.d3s p{
+    text-align: center;
+}
+.d3s .si{
+    height:20px;
+    width:20px;
+}
+.d3s button{
+    height:50px;
+    width:150px;
+    background: orangered;
+    color:white;
+    position: absolute;
+    bottom:30px;
+    left:100px;
+    border-radius: 30px;;
+}
+.d12{
+    height:350px;
+    width:100%;
+    margin-top: 50px;
+    background-image: linear-gradient(rgba(223,223,223,0.6),rgba(223,223,223,0.6)), url("blog03.jpg");
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+.d12 p{
+    color:white;
+    text-align: center;
+}
+.d12 h1{
+     text-align: center;
+     color:white;
+}
+.d12 button{
+    height:50px;
+    width:150px;
+    background: orangered;
+    color:white;
+    position: absolute;
+    bottom:30px;
+    left:600px;
+    border-radius: 30px;;
+}
+.d13{
+    height: 650px;
+    width: 100%;
+}
+.d13 h1{
+    text-align: center;
+    color: blue;
+}
+.extra{
+    height:400px;
+    width:70px;
+    position: relative;
+    float: left;
+}
+
+.longd{
+    height:400px;
+    width:370px;
+    position: relative;
+    float: left;
+    margin-left: 20px;
+}
+.longd img{
+    width: 100%;
+    height:45%;
+}
+.long img:hover{
+    opacity:0.6;
+    cursor:pointer;
+}
+.longd div{
+    height: 48%;
+    width: 100%;
+    margin-top: 30px;;
+    padding-left: 20px;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 4px 5px grey;
+}
+.longd p{
+    color: grey;
+}
+.d14{
+    height:300px;
+    width:100%;
+    background: black;
+    margin-top:100px;
+    position: relative;
+}
+.d14 h1{
+    text-align: center;
+    color:white;
+}
+.d14 h4{
+    position: absolute;
+    bottom:30px;
+    left:400px;
+    color:white;
+    text-align: center;
+}
+.d14 span{
+    color:red;
+}
+.d14 .p{
+    color: white;
+    position: absolute;
+    left:100px;
+}
+.d14 .e{
+    color: white;
+    position: absolute;
+    left:100px;
+    top:90px;
+}
+.d14 .ad{
+    color: white;
+    position: absolute;
+    left:100px;
+    top:120px;
+}
+.d14 h2{
+    font-size: 40px;
+    position: absolute;
+    right:200px;
+    top:60px;
+    color:white;
+}
