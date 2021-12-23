@@ -1,5 +1,6 @@
 # HTML-Projects
-static + effective
+lemric https://compassionate-austin-9b099c.netlify.app/
+neoreach https://affectionate-lovelace-1649f4.netlify.app/
 
 
 effective/alma https://angry-fermi-7cb6e9.netlify.app/
