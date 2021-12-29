@@ -2,9 +2,8 @@
 <ul>
 <li><a href="https://compassionate-austin-9b099c.netlify.app/">  lemric </a></li>
 <li><a href="https://affectionate-lovelace-1649f4.netlify.app/">neoreach </a></li>
-<br>
-<li><h2>effective</h2></li>
 
+  <h2>effective</h2>
 <li><a href="https://angry-fermi-7cb6e9.netlify.app/">effective/alma </a></li>
 <li><a href="https://kind-einstein-a840cb.netlify.app/">effective/asendent </a></li>
 <li><a href="https://keen-heyrovsky-9b8e48.netlify.app/">effective/gion </a></li>
@@ -18,8 +17,7 @@
 <li><a href="https://frosty-leakey-15085b.netlify.app/">effective/glasses man </a></li>
 <li><a href="https://gracious-joliot-3a396a.netlify.app/">effective/saloon </a></li>
 
-  <li><h2>static</h2><li>
-
+  <h2>static</h2>
 <li><a href="https://tender-agnesi-bb6594.netlify.app/">static/fluxo  </a></li>
 <li><a href="https://infallible-leavitt-026533.netlify.app/">static/shahbaz </a></li>
 <li><a href="https://dazzling-shirley-11ab03.netlify.app/">static/ construction theme url </a></li>
