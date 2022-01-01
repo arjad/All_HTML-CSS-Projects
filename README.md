@@ -21,5 +21,5 @@
 <li><a href="https://tender-agnesi-bb6594.netlify.app/">static/fluxo  </a></li>
 <li><a href="https://infallible-leavitt-026533.netlify.app/">static/shahbaz </a></li>
 <li><a href="https://dazzling-shirley-11ab03.netlify.app/">static/ construction theme url </a></li>
-<li><a href="https://elastic-leavitt-7124a0.netlify.app/">static/ shopping website url </a></li>
+<li><a href="https://zen-colden-941333.netlify.app/">static/ shopping website url </a> also has dark mode</li>
 </ul>
